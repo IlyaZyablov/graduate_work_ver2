@@ -514,7 +514,7 @@
               <source srcset="img/shop-item-mobile1.jpg" media="(max-width: 640px)">
               <source srcset="img/shop-item-tablet1.jpg" media="(min-width: 641px) and (max-width: 1199px)">
               <source srcset="img/shop-item-desk1.jpg" media="(min-width: 1200px)">
-    			    <img class="shop-item-img" src="shop-item-desk1.jpg" alt="Подушки на диван">
+    			    <img class="shop-item-img" src="img/shop-item-desk1.jpg" alt="Подушки на диван">
     		    </picture>
 
             <div class="shop-item-content">
@@ -546,7 +546,7 @@
               <source srcset="img/shop-item-mobile2.jpg" media="(max-width: 640px)">
               <source srcset="img/shop-item-tablet2.jpg" media="(min-width: 641px) and (max-width: 1199px)">
               <source srcset="img/shop-item-desk2.jpg" media="(min-width: 1200px)">
-    			    <img class="shop-item-img" src="shop-item-desk2.jpg" alt="Кукла зайчик">
+    			    <img class="shop-item-img" src="img/shop-item-desk2.jpg" alt="Кукла зайчик">
     		    </picture>
 
             <div class="shop-item-content">
@@ -578,7 +578,7 @@
               <source srcset="img/shop-item-mobile3.jpg" media="(max-width: 640px)">
               <source srcset="img/shop-item-tablet3.jpg" media="(min-width: 641px) and (max-width: 1199px)">
               <source srcset="img/shop-item-desk3.jpg" media="(min-width: 1200px)">
-    			    <img class="shop-item-img" src="shop-item-desk3.jpg" alt="Шестиугольная рамка">
+    			    <img class="shop-item-img" src="img/shop-item-desk3.jpg" alt="Шестиугольная рамка">
     		    </picture>
 
             <div class="shop-item-content">
@@ -631,6 +631,48 @@
           Copyright © 2009–2019 City Blog LLC.
         </a>
       </div>
+
+      <div class="popup">
+        <div class="popup-container">
+          <div class="popup-header">
+            <h2 class="trends-title">Ваш фидбек</h2>
+          </div>
+          <div class="popup-content">
+            <section class="popup-select">
+              <form class="popup-select-form">
+                <h3 class="popup-select-title">Как часто вы заходите на сайт?</h3>
+                <select name="select" class="popup-select-field">
+                  <option value="value1" selected>Почти каждый день</option>
+                  <option value="value2">Раз в неделю</option>
+                  <option value="value3">Раз в месяц</option>
+                </select>
+                <img class="popup-select-icon" src="svg/form-arrows.svg" alt="Открыть выпадающий список">
+              </form>
+            </section>
+
+            <section class="popup-radio">
+              <h3 class="popup-select-title">Вы подписаны на e-mail рассылку?</h3>
+              <form class="popup-radio-form">
+                <input class="popup-radio-field" type="radio" name="popup-radio" id="radio-yes" value="yes" aria-label="Да" checked>
+                <label for="radio-yes" class="popup-radio-button">Да</label>
+
+                <input class="popup-radio-field" type="radio" name="popup-radio" id="radio-no" value="yes" aria-label="Нет">
+                <label for="radio-no" class="popup-radio-button">Нет</label>
+              </form>
+            </section>
+
+            <section class="popup-feedback">
+              <h3 class="popup-select-title">Расскажите, какой контент вы хотели бы видеть на нашем сайте?</h3>
+              <textarea class="popup-feedback-field" name="feedback" rows="8" cols="80" placeholder="Может, больше рецептов?" aria-label="Поле для предложений по контенту на сайте" required></textarea>
+            </section>
+
+            <button class="popup-button" type="submit">Отправить</button>
+
+          </div>
+          <button class="popup-close" type="button" aria-label="Закрыть окно"></button>
+        </div>
+      </div>
+
     </div>
   </body>
 </html>
