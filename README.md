@@ -1,2 +1,1 @@
-# graduate_work_ver2
-Graduate Work Version 2
+# Адаптивная вёрстка по дизайн-макету
